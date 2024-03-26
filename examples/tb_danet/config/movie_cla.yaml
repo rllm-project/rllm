@@ -1,0 +1,14 @@
+dataset: 'movielens_cls'
+task: 'classification'
+resume_dir: ''
+logname: 'layer20'
+
+fit:
+  max_epochs: 10
+  patience: 500
+  lr: 0.02
+
+model:
+  layer: 8
+  base_outdim: 64
+  k: 5

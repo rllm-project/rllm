@@ -1,0 +1,15 @@
+dataset: 'movielens_reg'
+task: 'regression'
+resume_dir: ''
+logname: 'layer32'
+
+fit:
+  max_epochs: 2
+  patience: 10000
+  lr: 0.3
+
+model:
+  layer: 2
+  base_outdim: 96
+  k: 8
+  drop_rate: 0.1
