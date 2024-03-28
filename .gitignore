@@ -162,3 +162,14 @@ cython_debug/
 /rllm/datasets/cora/
 /rllm/datasets/rel-movielens1m/
 /.idea/
+
+/examples/LIFT/classification/data/test.json
+/examples/LIFT/classification/data/train.json
+/examples/LIFT/classification/data/val.json
+/examples/LIFT/classification/data/pred.json
+
+
+/examples/LIFT/regression/data/test.json
+/examples/LIFT/regression/data/train.json
+/examples/LIFT/regression/data/val.json
+/examples/LIFT/regression/data/pred.json
